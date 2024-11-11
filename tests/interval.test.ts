@@ -1,6 +1,6 @@
 import { test, expect } from '@jest/globals'
 
-import { HeartBeep } from '../index';
+import { HeartBeep } from '..';
 
 test(
     'first test',
