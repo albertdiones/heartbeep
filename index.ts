@@ -32,7 +32,15 @@ export class HeartBeep {
     start() {
         setInterval(
             () => {
-                this.player.play(this.defaultAudio, () => {})
+                const matchingStrategy = this.strategies.find(
+                    (strategy) => strategy.match()
+                );
+                this.player.play(
+                    matchingStrategy 
+                    ? matchingStrategy.getAudioFile()
+                    : this.defaultAudio, 
+                    () => {}
+                );
             },
             this.interval
         );

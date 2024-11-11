@@ -18,7 +18,7 @@ const mockPlayer = {
         errorHandler: () => void,
     ) => {
         playedSound.push(file);
-        const actualPlayer = require('play-sound')();
+        //const actualPlayer = require('play-sound')();
         // actualPlayer.play(`./${file}`, (error) => {});
     }
 }
