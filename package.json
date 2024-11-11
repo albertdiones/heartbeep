@@ -11,6 +11,7 @@
     },
     "dependencies": {
         "add_logger": "^0.0.23",
-        "add_repeater": "^0.0.1"
+        "add_repeater": "^0.0.1",
+        "play-sound": "^1.1.6"
     }
 }
