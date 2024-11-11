@@ -1,4 +1,4 @@
-= HeartBeepJs
+= HeartBeepJs =
 
 Constant interval condition-based audio beep for application status tracking (or more?)
 
