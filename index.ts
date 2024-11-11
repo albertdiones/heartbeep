@@ -25,7 +25,7 @@ export class HeartBeep {
     ) {
         this.interval = options.interval ?? 1000;
         this.strategies = options.strategies ?? [];
-        this.defaultAudio = options.defaultAudio ?? 'xxxxxx';
+        this.defaultAudio = options.defaultAudio ?? '339133.wav';
         this.player = options.player ?? require('play-sound')();
     }
 

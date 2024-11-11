@@ -18,12 +18,13 @@ const mockPlayer = {
         errorHandler: () => void,
     ) => {
         playedSound.push(file);
-        // require('play-sound')().play(file);
+        const actualPlayer = require('play-sound')();
+        // actualPlayer.play(`./${file}`, (error) => {});
     }
 }
 
 test(
-    'first test',
+    '2nd test',
     async () => {
         const beep = new HeartBeep({ 
             interval: 200,
