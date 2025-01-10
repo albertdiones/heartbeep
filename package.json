@@ -10,8 +10,8 @@
         "typescript": "^5.0.0"
     },
     "dependencies": {
-        "add_logger": "^0.0.23",
-        "add_repeater": "^0.0.1",
+        "add_logger": "^0.0",
+        "add_repeater": "^0.0",
         "play-sound": "^1.1.6"
     }
 }
